@@ -44,9 +44,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/al-folio/blog/";
               },
-            },{id: "post-training-a-waifu-diffusion-model-with-patch-diffusion-and-rectified-flow",
+            },{id: "post-training-a-waifu-diffusion-model-on-small-corrupted-data-using-patch-diffusion-and-rectified-flow",
         
-          title: "Training a Waifu Diffusion Model with Patch Diffusion and Rectified Flow",
+          title: "Training a Waifu Diffusion Model on Small, Corrupted Data using Patch Diffusion and...",
         
         description: "How to train a data-efficient diffusion model on corrupted anime face data using CIELAB space, patch cropping, and modern transformer techniques.",
         section: "Posts",
