@@ -211,7 +211,7 @@ Despite training on 90% monochrome data, the model generates vibrant, coherent f
 {% include figure.liquid path="assets/img/posts/waifu-diffusion/generated-samples.png" class="img-fluid rounded z-depth-1" %}
 
 <div class="caption">
-    Three generated anime face samples from the model, all at native 80×80 resolution
+    Four generated anime face samples from the model, all at native 80×80 resolution
 </div>
 
 ### Avoiding Memorization: LPIPS Validation
