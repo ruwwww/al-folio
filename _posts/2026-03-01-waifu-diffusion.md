@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Training a Waifu Diffusion Model with Patch Diffusion and Rectified Flow"
+title: "Training a Waifu Diffusion Model on Small, Corrupted Data using Patch Diffusion and Rectified Flow"
 date: 2026-03-01
 description: "How to train a data-efficient diffusion model on corrupted anime face data using CIELAB space, patch cropping, and modern transformer techniques."
 tags: [diffusion-models, generative-ai, flow-matching, efficient-learning]
 categories: [ML-Engineering]
-giscus_comments: true
+giscus_comments: false
 ---
 
 ## Introduction
