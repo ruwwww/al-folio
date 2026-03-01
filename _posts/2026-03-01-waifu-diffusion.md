@@ -300,7 +300,7 @@ Full training code is in the repository.
 
 - **Rectified Flow**: [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)
 - **DiT**: [Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748)
-- **Vision RoPE**: [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+- **Patch Diffusion**: [Faster and More Data-Efficient Training of Diffusion Models](https://arxiv.org/abs/2304.12526)
 
 ---
 
