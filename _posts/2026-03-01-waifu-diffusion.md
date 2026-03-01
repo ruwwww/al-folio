@@ -12,7 +12,7 @@ giscus_comments: true
 
 Training generative models on small, imbalanced datasets is notoriously difficult—but it's doable with the right tricks. I trained a **130M-parameter diffusion model** on just 10,000 anime faces, 90% of them **monochrome**, that still generates coherent colorful images. This post covers the key techniques: **patch diffusion**, **rectified flow**, and **CIELAB color space decoupling**.
 
-**Weights & Code**: [ruwwww/waifu_diffusion](https://huggingface.co/ruwwww/waifu_diffusion)
+**Weights & Code**: [HuggingFace](https://huggingface.co/ruwwww/waifu_diffusion) · [GitHub](https://github.com/ruwwww/waifu_diffusion)
 
 ---
 
@@ -260,6 +260,7 @@ The model smoothly transitions from noise to structure to detail:
 ## Part 8: Code & Model
 
 **Model weights**: [ruwwww/waifu_diffusion](https://huggingface.co/ruwwww/waifu_diffusion)  
+**GitHub repository**: [ruwwww/waifu_diffusion](https://github.com/ruwwww/waifu_diffusion)  
 **File**: `waifu_diffusion_1280_bs256.safetensors` (130M params)
 
 **Quick inference**:
@@ -304,4 +305,4 @@ Full training code is in the repository.
 
 ---
 
-_March 2026_ | Model: [ruwwww/waifu_diffusion](https://huggingface.co/ruwwww/waifu_diffusion)
+_March 2026_ | Model: [ruwwww/waifu_diffusion](https://huggingface.co/ruwwww/waifu_diffusion) · Code: [ruwwww/waifu_diffusion](https://github.com/ruwwww/waifu_diffusion)
