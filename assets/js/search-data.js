@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/al-folio/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-training-a-waifu-diffusion-model-with-patch-diffusion-and-rectified-flow",
+        
+          title: "Training a Waifu Diffusion Model with Patch Diffusion and Rectified Flow",
+        
+        description: "How to train a data-efficient diffusion model on corrupted anime face data using CIELAB space, patch cropping, and modern transformer techniques.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio/blog/2026/waifu-diffusion/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
