@@ -52,7 +52,11 @@ We use [Anime-Face-Dataset-10k](https://huggingface.co/datasets/amirali900/Anime
 - **90% corrupted to monochrome**
 - 10% kept in color
 
-**[Figure: 4 pairs showing (color original, transformed grayscale) examples]**
+{% include figure.liquid path="assets/img/posts/waifu-diffusion/monochrome-corruption.png" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    Monochrome corruption examples: 4 pairs showing original color images (left) and their transformed grayscale versions (right)
+</div>
 
 ### Why CIELAB Works Better Than RGB
 
@@ -94,7 +98,11 @@ else:
 
 A 40×40 patch can appear at up to 21 positions, effectively multiplying dataset size. We use **Vision Rotary Embeddings** to ensure spatial consistency across patches.
 
-**[Figure: Visualization showing how a 40×40 patch can be sampled from different positions in the full 80×80 image]**
+{% include figure.liquid path="assets/img/posts/waifu-diffusion/patch-diagram.png" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    Patch diffusion strategy: A 40×40 patch can be cropped from multiple positions in the 80×80 image, effectively augmenting the dataset
+</div>
 
 ---
 
@@ -136,13 +144,20 @@ k = rope(k, top_idx=top_idx, left_idx=left_idx)
 
 ### Loss Function & Gradient Masking
 
-We train the velocity field with **masked MSE loss**:
+We train the velocity field with **masked MSE loss**. The model outputs **x-pred** (clean image prediction), which we convert to **v-pred** for both loss computation and sampling:
 
 $$\mathcal{L} = \mathbb{E} \left[ \| v_\theta(x_t, t) - (x_1 - x_0) \|^2 \odot \mathbf{m} \right]$$
+
+where $v_\theta = \hat{x}_1 - x_t$ is derived from the model's x-prediction.
 
 ```python
 def masked_mse_loss(pred_x1, target_x1, mask):
     return (F.mse_loss(pred_x1, target_x1, reduction='none') * mask).mean()
+
+# Training loop converts x-pred to v-pred:
+v_pred = pred_x1 - x0
+v_target = x1 - x0
+loss = ((v_pred - v_target) ** 2 * mask).mean()
 ```
 
 The mask prevents gradients from flowing through masked chroma channels in monochrome images.
@@ -193,24 +208,38 @@ def generate(model, device, steps=50):
 
 Despite training on 90% monochrome data, the model generates vibrant, coherent faces:
 
-**[Figure: 3 generated anime face samples]**
+{% include figure.liquid path="assets/img/posts/waifu-diffusion/generated-samples.png" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    Three generated anime face samples from the model, all at native 80×80 resolution
+</div>
 
 ### Avoiding Memorization: LPIPS Validation
 
 We verify each generated image is novel by computing **LPIPS distance** to the nearest training sample. Typical values:
 
 - Same image: 0.0
-- Very similar: 0.1–0.3
-- Distinct images: 1.0–2.0
-- Our generated samples: **> 3.0** ✓
+- Very similar: 0.05–0.15
+- Somewhat distinct: 0.15–0.25
+- Our generated samples: **≥ 0.25–0.3** ✓
 
-**[Figure: 3 pairs of (generated sample, nearest training neighbor) with LPIPS scores]**
+The consistently higher LPIPS scores confirm the model generates novel faces rather than memorizing training data.
+
+{% include figure.liquid path="assets/img/posts/waifu-diffusion/nearest-neighbor.png" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    Nearest neighbor validation (merged panel): each pair shows a generated image and its closest training sample with LPIPS distance ≥ 0.25
+</div>
 
 ### Generation Trajectory
 
 The model smoothly transitions from noise to structure to detail:
 
-**[Figure: 1 trajectory showing 10 frames from noise → final image]**
+{% include figure.liquid path="assets/img/posts/waifu-diffusion/trajectory.gif" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    Generation trajectory showing 10 frames from pure noise (t=0) to final image (t=1) over 50 sampling steps
+</div>
 
 ---
 
