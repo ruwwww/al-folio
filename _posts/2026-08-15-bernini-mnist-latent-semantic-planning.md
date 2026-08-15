@@ -102,6 +102,18 @@ Let's look at how the generated samples compare to real digits:
 
 ---
 
+### Continuous Denoising Trajectory Gallery (Classes 0–9)
+
+To see the continuous flow matching process in action, here is the step-by-step denoising trajectory for every digit class from 0 to 9 across 30 Euler ODE steps (from pure Gaussian static at $t=0.0$ on the left to clean digits at $t=1.0$ on the right):
+
+{% include figure.liquid path="assets/img/posts/bernini-mnist/ode_trajectories_all_classes.png" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    Step-by-step continuous denoising trajectories across classes 0 to 9 over 30 Euler ODE steps ($t=0.0 \to 1.0$). Pure Gaussian noise is progressively integrated into clean, crisp handwritten strokes guided by the semantic plan.
+</div>
+
+---
+
 ## 6. Takeaways
 
 This 2-stage generative paradigm shows why ByteDance's vision stack is so compelling:
