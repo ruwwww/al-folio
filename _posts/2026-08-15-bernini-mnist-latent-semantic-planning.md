@@ -125,3 +125,15 @@ This 2-stage generative paradigm shows why ByteDance's vision stack is so compel
 Check out the full repository and open-source checkpoints:
 * **GitHub Repository**: [https://github.com/ruwwww/bernini-mnist](https://github.com/ruwwww/bernini-mnist)
 * **Hugging Face Model Hub**: [https://huggingface.co/ruwwww/bernini-mnist](https://huggingface.co/ruwwww/bernini-mnist)
+
+---
+
+## References
+
+- **Bernini**: [Latent Semantic Planning for Video Diffusion via Multimodal Large Language Models](https://arxiv.org/abs/2605.22344) (ByteDance Research) · [Official Code](https://github.com/bytedance/Bernini)
+- **MaskGIT**: [Masked Generative Image Transformer](https://arxiv.org/abs/2202.04200) (Chang et al., CVPR 2022)
+- **Flow Matching**: [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) (Lipman et al., ICLR 2023)
+
+---
+
+_August 2026_ | Model: [ruwwww/bernini-mnist](https://huggingface.co/ruwwww/bernini-mnist) · Code: [ruwwww/bernini-mnist](https://github.com/ruwwww/bernini-mnist)
