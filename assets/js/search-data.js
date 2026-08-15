@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/al-folio/blog/";
               },
-            },{id: "post-training-a-waifu-diffusion-model-on-small-corrupted-data-using-patch-diffusion-and-rectified-flow",
+            },{id: "post-inside-bytedance-39-s-video-models-building-a-generative-mllm-planner-from-scratch",
+        
+          title: "Inside ByteDance&#39;s Video Models: Building a Generative MLLM Planner from Scratch",
+        
+        description: "ByteDance&#39;s video models (Seedance / Seaweed) are rumored to scale up to 200B parameters. Here is how their generative MLLM planning architecture actually works, and how we built a toy reproduction from scratch.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio/blog/2026/bernini-mnist-latent-semantic-planning/";
+          
+        },
+      },{id: "post-training-a-waifu-diffusion-model-on-small-corrupted-data-using-patch-diffusion-and-rectified-flow",
         
           title: "Training a Waifu Diffusion Model on Small, Corrupted Data using Patch Diffusion and...",
         
