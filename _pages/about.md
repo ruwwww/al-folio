@@ -3,15 +3,15 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Undergraduate Student, Information Systems · <a href='https://www.its.ac.id/' target='_blank'>Institut Teknologi Sepuluh November</a>, Indonesia
+  Undergraduate Student, Information Systems · <a href='https://www.its.ac.id/' target='_blank'>Institut Teknologi Sepuluh Nopember</a>, Indonesia
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Information Systems, 4th Semester</p>
-    <p>Institut Teknologi Sepuluh November</p>
+    <p>Information Systems, 5th Semester</p>
+    <p>Institut Teknologi Sepuluh Nopember</p>
     <p>Surabaya, Indonesia</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,18 +28,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm **Abdurrahman Izzuddin Al Faruq** (or just **ruwwww** online), a 4th-semester undergraduate student in Information Systems at [Institut Teknologi Sepuluh November](https://www.its.ac.id/), Indonesia.
+Hi! I'm **Abdurrahman Izzuddin Al Faruq** (or **ruwwww** online), a 5th-semester undergraduate student in Information Systems at [Institut Teknologi Sepuluh Nopember](https://www.its.ac.id/), Indonesia.
 
-**Interests**
+**Engineering Focus**
 
-My primary interest is in **software engineering**, with a focus on backend development and **MLOps** — building the infrastructure and pipelines that bring machine learning models to production.
+My primary interest lies in **ML Systems Engineering**, bridging the intersection of software infrastructure and hardware acceleration. I enjoy building efficient, low-latency machine learning pipelines, optimizing training and inference workloads, and squeezing maximum throughput from modern compute architectures.
 
 **Research Interests**
 
-On the research side, I'm fascinated by **generative modeling**, particularly diffusion models and autoregressive models. I enjoy exploring how these architectures learn to model complex data distributions and their applications in various domains.
+My research interests have evolved toward **AI for Science and Computational Biology**—inspired by breakthroughs like AlphaFold and Isomorphic Labs. I am deeply fascinated by using deep learning and generative modeling to understand complex biological systems, model biomolecular structures, and accelerate therapeutic discovery to help cure diseases.
 
 **Personal Interests**
 
-Beyond computing, I have a deep appreciation for **physics** — from classical mechanics to modern theoretical physics. I'm also drawn to **high-performance computing (HPC)** and the challenge of squeezing every bit of performance out of hardware.
+Beyond computing, I have a strong passion for **physics** and **high-performance computing (HPC)**. Outside the terminal, I enjoy **traveling** to explore new places and cultures, alongside a deep appreciation for **visual and conceptual art**.
 
 Feel free to reach out at [fixgmc@gmail.com](mailto:fixgmc@gmail.com) if you'd like to connect or collaborate!
