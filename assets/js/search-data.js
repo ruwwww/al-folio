@@ -152,6 +152,13 @@ ninja.data = [{
           window.open("https://github.com/ruwwww", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/abdurrahman-izzuddin-al-faruq", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
