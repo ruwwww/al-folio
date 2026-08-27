@@ -82,51 +82,66 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-inspacemap-platform",
+          title: 'InSpaceMap Platform',
+          description: "Full-stack indoor venue mapping, drag-and-drop navigation graph editor, and wayfinding platform",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/al-folio/projects/10_inspacemap/";
+            },},{id: "projects-tebak-kata",
+          title: 'Tebak Kata',
+          description: "Contexto-inspired semantic word-guessing game built with Next.js and vector embedding similarity matching",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/al-folio/projects/11_tebak_kata/";
+            },},{id: "projects-idlerpg-engine",
+          title: 'IdleRPG Engine',
+          description: "Automated RPG game engine, progression state machine, and battle mechanics backend",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/al-folio/projects/12_idlerpg/";
+            },},{id: "projects-yoshida",
+          title: 'Yoshida',
+          description: "Production-grade General LLM Reinforcement Learning &amp; Post-Training Framework",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/al-folio/projects/1_yoshida/";
+            },},{id: "projects-axon",
+          title: 'Axon',
+          description: "A minimal deep learning framework built in C++20 from scratch with eager autograd, AVX2 SIMD CPU backend, and GGML-style quantization",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/al-folio/projects/2_axon/";
+            },},{id: "projects-angel",
+          title: 'Angel',
+          description: "Next-generation distributed LLM RL framework with VERL-style 3D HybridEngine architecture (In Development)",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/al-folio/projects/3_angel/";
+            },},{id: "projects-flash-sdxl",
+          title: 'Flash-SDXL',
+          description: "High-throughput end-to-end web serving engine and inference optimization pipeline for SDXL models",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/al-folio/projects/4_flash_sdxl/";
+            },},{id: "projects-project-yoru-amp-fami",
+          title: 'Project Yoru &amp;amp; Fami',
+          description: "Stealth research on next-generation image generation and speech/audio foundation systems",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/al-folio/projects/5_yoru_fami/";
+            },},{id: "projects-batik-meanflow",
+          title: 'Batik MeanFlow',
+          description: "Generative Flow Matching and Mean Flow applied to manifold learning and Indonesian Batik pattern synthesis",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_project/";
+              window.location.href = "/al-folio/projects/6_batik_meanflow/";
+            },},{id: "projects-waifu-diffusion-exploration",
+          title: 'Waifu Diffusion Exploration',
+          description: "Fine-tuning and latent diffusion conditioning experiments on stylized generative image models",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/7_waifudiffusion/";
+            },},{id: "projects-bernini-mnist",
+          title: 'Bernini MNIST',
+          description: "Generative flow and velocity field modeling experiments on benchmark vision datasets",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/8_bernini_mnist/";
+            },},{id: "projects-booru-ecosystem-amp-dataset-harvesting-suite",
+          title: 'Booru Ecosystem &amp;amp; Dataset Harvesting Suite',
+          description: "Unified dataset ingestion, smart tracking, automated tagging, and scheduling pipeline for mediaboard resources",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/9_booru_ecosystem/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
