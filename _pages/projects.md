@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of projects I have worked on or am currently working on.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: ["ML Systems & Compilers", "Generative Models & Foundation Systems", "Media Infrastructure & Dataset Tooling", "Full-Stack & Interactive Applications"]
 horizontal: false
 ---
 
