@@ -103,10 +103,10 @@ pagination:
 
   <ul class="post-list">
 
-    {% if page.pagination.enabled %}
+    {% if page.pagination.enabled and paginator.posts and paginator.posts.size > 0 %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site.posts | sort: "date" | reverse %}
     {% endif %}
 
     {% for post in postlist %}
