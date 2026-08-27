@@ -94,6 +94,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: ruwwww # blog_name will be displayed in your blog page
 blog_description: thoughts on software engineering, machine learning, and more
 permalink: /blog/:year/:title/
+future: true
 lsi: false # produce an index for related posts
 
 # Pagination
