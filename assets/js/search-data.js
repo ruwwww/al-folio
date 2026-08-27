@@ -7,42 +7,42 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "A collection of projects I have worked on or am currently working on.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/books/";
+                window.location.href = "/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/blog/";
+                window.location.href = "/blog/";
               },
             },{id: "post-inside-bytedance-39-s-video-models-building-a-generative-mllm-planner-from-scratch",
         
@@ -52,7 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2026/bernini-mnist-latent-semantic-planning/";
+            window.location.href = "/blog/2026/bernini-mnist-latent-semantic-planning/";
           
         },
       },{id: "post-training-a-waifu-diffusion-model-on-small-corrupted-data-using-patch-diffusion-and-rectified-flow",
@@ -63,14 +63,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2026/waifu-diffusion/";
+            window.location.href = "/blog/2026/waifu-diffusion/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -78,7 +78,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -86,72 +86,72 @@ ninja.data = [{
           title: 'InSpaceMap Platform',
           description: "Full-stack indoor venue mapping, drag-and-drop navigation graph editor, and wayfinding platform",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/10_inspacemap/";
+              window.location.href = "/projects/10_inspacemap/";
             },},{id: "projects-tebak-kata",
           title: 'Tebak Kata',
           description: "Contexto-inspired semantic word-guessing game built with Next.js and vector embedding similarity matching",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/11_tebak_kata/";
+              window.location.href = "/projects/11_tebak_kata/";
             },},{id: "projects-idlerpg-engine",
           title: 'IdleRPG Engine',
           description: "Automated RPG game engine, progression state machine, and battle mechanics backend",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/12_idlerpg/";
+              window.location.href = "/projects/12_idlerpg/";
             },},{id: "projects-yoshida",
           title: 'Yoshida',
           description: "Production-grade General LLM Reinforcement Learning &amp; Post-Training Framework",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_yoshida/";
+              window.location.href = "/projects/1_yoshida/";
             },},{id: "projects-axon",
           title: 'Axon',
           description: "A minimal deep learning framework built in C++20 from scratch with eager autograd, AVX2 SIMD CPU backend, and GGML-style quantization",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_axon/";
+              window.location.href = "/projects/2_axon/";
             },},{id: "projects-angel",
           title: 'Angel',
           description: "Next-generation distributed LLM RL framework with VERL-style 3D HybridEngine architecture (In Development)",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_angel/";
+              window.location.href = "/projects/3_angel/";
             },},{id: "projects-flash-sdxl",
           title: 'Flash-SDXL',
           description: "High-throughput end-to-end web serving engine and inference optimization pipeline for SDXL models",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_flash_sdxl/";
+              window.location.href = "/projects/4_flash_sdxl/";
             },},{id: "projects-project-yoru-amp-fami",
           title: 'Project Yoru &amp;amp; Fami',
           description: "Stealth research on next-generation image generation and speech/audio foundation systems",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_yoru_fami/";
+              window.location.href = "/projects/5_yoru_fami/";
             },},{id: "projects-batik-meanflow",
           title: 'Batik MeanFlow',
           description: "Generative Flow Matching and Mean Flow applied to manifold learning and Indonesian Batik pattern synthesis",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/6_batik_meanflow/";
+              window.location.href = "/projects/6_batik_meanflow/";
             },},{id: "projects-waifu-diffusion-exploration",
           title: 'Waifu Diffusion Exploration',
           description: "Fine-tuning and latent diffusion conditioning experiments on stylized generative image models",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_waifudiffusion/";
+              window.location.href = "/projects/7_waifudiffusion/";
             },},{id: "projects-bernini-mnist",
           title: 'Bernini MNIST',
           description: "Generative flow and velocity field modeling experiments on benchmark vision datasets",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_bernini_mnist/";
+              window.location.href = "/projects/8_bernini_mnist/";
             },},{id: "projects-booru-ecosystem-amp-dataset-harvesting-suite",
           title: 'Booru Ecosystem &amp;amp; Dataset Harvesting Suite',
           description: "Unified dataset ingestion, smart tracking, automated tagging, and scheduling pipeline for mediaboard resources",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_booru_ecosystem/";
+              window.location.href = "/projects/9_booru_ecosystem/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/data-science-fundamentals/";
+              window.location.href = "/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/al-folio/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
